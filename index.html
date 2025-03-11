@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alam Jalu Jaya</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-img-top {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover .card-img-top {
+      transform: scale(1.05);
+    }
+
+    .card-body {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover .card-body {
+      transform: translateY(-10px);
+    }
+
+    .pesan-button {
+      position: absolute;
+      bottom: -50px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      transition: bottom 0.2s;
+    }
+
+    .card:hover .pesan-button {
+      bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navigasi -->
+  <nav class="navbar navbar-expand-lg navbar-primary-subtle bg-primary shadow-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-uppercase text-light d-flex align-items-center" href="index.html">
+        <img src="assets/images/icon.png" alt="Logo" width="35" height="35" class="me-2">
+        <span>Alam Jalu Jaya</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#tentang">Tentang Alam Jalu Jaya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#layanan">Layanan Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#kontak">Kontak & Bantuan</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <div class="container-fluid banner">
+    <div class="container text-center">
+      <a href="#layanan">
+        <img src="assets/images/icon.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+      </a>
+    </div>
+  </div>
+  <marquee behavior="scroll" direction="left">
+    <h3 class="fw-bold text-uppercase text-center mt-2">Selamat Datang di Website Alam Jalu Jaya
+  </marquee>
+  </h3>
+  <hr class="divider">
+
+  <!-- Tentang -->
+  <div class="container-fluid tentang pt-5 pb-5">
+    <div class="container text-center">
+      <h2 class="display-3 fw-bold" id="tentang" style="padding-top: 100px; margin-top: -100px;">Tentang <span
+          class="text-secondary">Alam Jalu Jaya</span></h2>
+      <p>
+        Ringkasan singkat tentang Alam Jalu Jaya
+      </p>
+      <div class="clearfix pt-5">
+        <img src="assets/images/bg.jpeg" class="col-md-6 float-md-end mb-3 crop-img" width="300" height="400" />
+        <p style="text-align: justify;">
+          Jasa Konstruksi Alam Jalu Jaya adalah perusahaan terkemuka di bidang konstruksi yang dikenal dengan
+          reputasi solid dalam menyediakan layanan konstruksi berkualitas tinggi. Kami menawarkan solusi menyeluruh
+          untuk berbagai kebutuhan konstruksi, mulai dari pembangunan rumah tinggal, gedung perkantoran, hingga proyek
+          infrastruktur yang lebih besar. Dengan tim profesional yang berpengalaman dan berkompeten, kami berkomitmen
+          untuk menghadirkan hasil akhir yang memuaskan dan sesuai dengan standar industri tertinggi. Kami menggunakan
+          teknologi terbaru dan bahan bangunan berkualitas untuk memastikan setiap proyek yang kami tangani tidak hanya
+          estetik tetapi juga tahan lama dan fungsional.
+        </p>
+        <p style="text-align: justify;">
+          Kami percaya bahwa setiap proyek konstruksi adalah kesempatan untuk mewujudkan visi klien kami. Oleh karena
+          itu, kami bekerja secara kolaboratif dengan klien untuk memahami kebutuhan dan keinginan mereka dengan
+          mendalam. Proses kerja kami yang transparan dan pendekatan yang terfokus pada detail memastikan bahwa semua
+          aspek proyek, mulai dari perencanaan hingga penyelesaian, berjalan dengan lancar dan sesuai jadwal. Dengan
+          dedikasi terhadap keunggulan dan kepuasan pelanggan, Jasa Konstruksi Alam Jalu Jaya terus berkembang dan
+          menetapkan standar tinggi dalam industri konstruksi.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jasa -->
+  <div class="container-fluid pt-5 pb-5 bg-light">
+    <div class="container text-center">
+      <h2 class="display-3 fw-bold text-secondary" id="layanan" style="padding-top: 100px; margin-top: -100px;">Alam
+        Jalu Jaya <span class="text-dark">Menyediakan Layanan Berkualitas</span></h2>
+      <p>Alam Jalu Jaya berkomitmen memberikan layanan terbaik dengan fokus pada kualitas dan kepuasan pelanggan</p>
+
+      <div class="container">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 100%; height: 100%;">
+              <img src="assets/images/foto-pb-alam-jalu-jaya/kontruksi-bangunan.png" alt="Foto Jasa"
+                class="card-img-top" width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="text-align: justify;">Konstruksi Bangunan</h5>
+                <p style="text-align: justify;">
+                  <span>Menerima pembangunan dari 0 dan Menerima Renovasi</span>
+                  <img src="assets/images/check.png" alt="Logo" width="20" height="20" class="me-2">
+                </p>
+                <p style="text-align: justify;">
+                  Gudang, Perkantoran, Rumah Huni, dan Gedung.
+                </p>
+              </div>
+              <div class="footer mb-2">
+                <a href="detail-jasa-kontruksi-bangunan.html" class="btn btn bg-primary-subtle text-secondary"
+                  style="letter-spacing: 2px; width: 80%;">
+                  Lihat Detail
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 100%; height: 100%;">
+              <img src="assets/images/foto-pb-alam-jalu-jaya/pekerjaan-lahan.png" alt="Foto Jasa" class="card-img-top"
+                width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="text-align: justify;">Pekerjaan Lahan</h5>
+                <p style="text-align: justify;">
+                  <span>Pematangan lahan</span>
+                  <img src="assets/images/check.png" alt="Logo" width="20" height="20" class="me-2">
+                </p>
+                <p style="text-align: justify;">
+                  Pengurugan, <i>Cut and Fill</i>, dan <i>Land Clearing</i>.
+                </p>
+              </div>
+              <div class="footer mb-2">
+                <a href="detail-jasa-pekerjaan-lahan.html" class="btn btn bg-primary-subtle text-secondary"
+                  style="letter-spacing: 2px; width: 80%;">
+                  Lihat Detail
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 100%; height: 100%;">
+              <img src="assets/images/foto-pb-alam-jalu-jaya/kontruksi-baja.png" alt="Foto Jasa" class="card-img-top"
+                width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="text-align: justify;">Konstruksi Baja & Besi</h5>
+                <p style="text-align: justify;">
+                  <span>Pekerjaan struktur baja dan besi</span>
+                  <img src="assets/images/check.png" alt="Logo" width="20" height="20" class="me-2">
+                </p>
+                <p style="text-align: justify;">
+                  Konstruksi WF Baja Berat, Konstruksi Atap Baja Ringan, Pagar, Kanopi, <i>Railing, Torn, Henderson,
+                    Folding Gate, Rolling Door.</i>
+                </p>
+              </div>
+              <div class="footer mb-2">
+                <a href="detail-jasa-kontruksi-baja.html" class="btn btn bg-primary-subtle text-secondary"
+                  style="letter-spacing: 2px; width: 80%;">
+                  Lihat Detail
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 100%; height: 100%;">
+              <img src="assets/images/foto-pb-alam-jalu-jaya/interior.png" alt="Foto Jasa" class="card-img-top"
+                width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="text-align: justify;">Interior & Partisi</h5>
+                <p style="text-align: justify;">
+                  <span>Pekerjaan interior dan sekat ruangan</span>
+                  <img src="assets/images/check.png" alt="Logo" width="20" height="20" class="me-2">
+                </p>
+                <p style="text-align: justify;">
+                  Gypsum, PVC, Partisi, dan Kusen Aluminium.
+                </p>
+              </div>
+              <div class="footer mb-2">
+                <a href="detail-jasa-interior.html" class="btn btn bg-primary-subtle text-secondary"
+                  style="letter-spacing: 2px; width: 80%;">
+                  Lihat Detail
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 100%; height: 100%;">
+              <img src="assets/images/foto-pb-alam-jalu-jaya/pengeboran.png" alt="Foto Jasa" class="card-img-top"
+                width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="text-align: justify;">Pengeboran Air Bersih</h5>
+                <p style="text-align: justify;">
+                  <span>Pembuatan sumur & sistem air bersih</span>
+                  <img src="assets/images/check.png" alt="Logo" width="20" height="20" class="me-2">
+                </p>
+                <p style="text-align: justify;">
+                  Pengeboran Dalam, Artesis, Sumur Sible, Jet Pump Bor Pale, Trospal (Filter + Media).
+                </p>
+              </div>
+              <div class="footer mb-2">
+                <a href="detail-jasa-pengeboran.html" class="btn btn bg-primary-subtle text-secondary"
+                  style="letter-spacing: 2px; width: 80%;">
+                  Lihat Detail
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 100%; height: 100%;">
+              <img src="assets/images/foto-pb-alam-jalu-jaya/suplai.png" alt="Foto Jasa" class="card-img-top"
+                width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="text-align: justify;">Supply Material Bangunan</h5>
+                <p style="text-align: justify;">
+                  <span>Penjualan bahan alam & material bangunan</span>
+                  <img src="assets/images/check.png" alt="Logo" width="20" height="20" class="me-2">
+                </p>
+                <p style="text-align: justify;">
+                  Pasir Cor, Pasir Pasang, Split, Batu Bata Merah, Hebel.
+                </p>
+              </div>
+              <div class="footer mb-2">
+                <a href="detail-jasa-supply.html" class="btn btn bg-primary-subtle text-secondary"
+                  style="letter-spacing: 2px; width: 80%;">
+                  Lihat Detail
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <a href="semua-jasa.html" target="_blank" class="btn bg-primary-subtle fw-bold text-uppercase mt-3"
+          style="letter-spacing: 3px;">
+          Lihat Semuanya
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+            <path fill-rule="evenodd"
+              d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kontak -->
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container">
+      <h2 class="display-3 text-center fw-bold" id="kontak" style="padding-top: 100px; margin-top: -100px;">
+        Kontak Kami
+      </h2>
+      <p class="text-center mb-5">
+        Segera hubungi kami untuk mendapatkan layanan terbaik dari Jasa Konstruksi Alam Jalu Jaya
+      </p>
+
+      <div class="row pt-4">
+        <div class="col-md-4 mb-4 text-center">
+          <span class="lingkaran">
+            <img src="assets/images/kontak/wa.png" alt="WhatsApp">
+          </span>
+          <h3 class="mt-3">WhatsApp</h3>
+          <p>
+            <a href="https://wa.me/6282116795571" class="btn bg-success-subtle" target="_blank">
+              082116795571
+            </a>
+          </p>
+        </div>
+
+        <div class="col-md-4 mb-4 text-center">
+          <span class="lingkaran">
+            <img src="assets/images/kontak/facebook.png" alt="Email">
+          </span>
+          <h3 class="mt-3">Facebook</h3>
+          <p>
+            <a href="https://facebook.com/alam.j.jaya" class="btn bg-success-subtle" target="_blank">
+              alam.j.jaya
+            </a>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center">
+        <h3 class="fw-bold" style="padding-top: 100px; margin-top: -100px;">
+          Jadwal <span class="text-secondary">Alam Jalu Jaya</span>
+        </h3>
+        <ul style="text-align: justify;">
+          <li>Buka Setiap Hari</li>
+          <li>Gratis survey lokasi dan konsultasi</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center pt-5 pb-5 bg-primary-subtle">
+    <p class="fw-bold">&copy; 2025 Alam Jalu Jaya</p>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
